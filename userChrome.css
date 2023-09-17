@@ -43,3 +43,41 @@
     margin-right: calc((var(--wide-tab-width) - var(--thin-tab-width)) * -1) !important;
     z-index: 1;
 }
+
+/* Colors */
+:root{
+	/*popup panels*/
+--arrowpanel-background: #6d6662 !important;
+--arrowpanel-border-color: none !important;
+--arrowpanel-color: #fbf3ee !important;
+	/*windows and toolbars*/
+--lwt-accent-color: #fbf3ee !important;
+--lwt-accent-color-inactive: #6d6662 !important;
+--toolbar-bgcolor: #6d6662 !important;
+	/*tabs*/
+--tab-selected-bgcolor: #6d6662 !important;
+--lwt-text-color: #fbf3ee !important;
+--lwt-selected-tab-background-color #6d6662 !important;
+--lwt-text-color: #fbf3ee !important;
+--lwt-selected-tab-background-color: #6d6662 !important;
+	/*toolbar*/
+--toolbarbutton-icon-fill: #fbf3ee !important;
+--toolbarbutton-hover-background: #6d6662 !important;
+--toolbarbutton-active-background: #6d6662 !important;
+	/*url bar*/
+--toolbar-field-focus-border-color: #6d6662 !important;
+--toolbar-field-background-color: #6d6662 !important;
+--toolbar-field-focus-background-color: #6d6662 !important;
+--toolbar-field-color: #fbf3ee !important;
+--toolbar-field-focus-color #fbf3ee !important;
+	/*sidebbar*/
+--lwt-sidebar-background-color: #6d6662 !important;
+--lwt-sidebar-text-color: #6d6662 !important;
+
+}
+
+/* Extra Rice */
+:root{
+#urlbar:not([focused]) $urlbar-input,
+#urlbar:not([focused]) .urlbar-input{ text-align: center !important; }
+}
